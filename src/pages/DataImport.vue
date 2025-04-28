@@ -17,22 +17,9 @@
                 <span class="text-4xl">📄</span>
               </div>
               <h2 class="mb-4 text-2xl text-gray-800 font-bold">点击或拖拽您的健康数据Excel文件到这里上传</h2>
-              <p class="mb-6 text-lg text-gray-600">支持 .xlsx 格式的文件</p>
               <section class="w-full max-w-lg mx-auto px-4">
-                <h3 class="text-base text-gray-600 text-center mb-4">Excel表格列名：</h3>
-                <ul class="flex flex-wrap justify-center gap-2" aria-label="必需的Excel列名">
-                  <li><span class="px-3 py-1.5 bg-white hand-drawn-border text-sm">测量时间</span></li>
-                  <li><span class="px-3 py-1.5 bg-white hand-drawn-border text-sm">体重(kg)</span></li>
-                  <li><span class="px-3 py-1.5 bg-white hand-drawn-border text-sm">体脂率(%)</span></li>
-                  <li><span class="px-3 py-1.5 bg-white hand-drawn-border text-sm">内脏脂肪指数</span></li>
-                  <li><span class="px-3 py-1.5 bg-white hand-drawn-border text-sm">肌肉率(%)</span></li>
-                  <li><span class="px-3 py-1.5 bg-white hand-drawn-border text-sm">蛋白质(%)</span></li>
-                  <li><span class="px-3 py-1.5 bg-white hand-drawn-border text-sm">水分率(%)</span></li>
-                  <li><span class="px-3 py-1.5 bg-white hand-drawn-border text-sm">身体年龄</span></li>
-                  <li><span class="px-3 py-1.5 bg-white hand-drawn-border text-sm">骨量(kg)</span></li>
-                  <li><span class="px-3 py-1.5 bg-white hand-drawn-border text-sm">基础代谢(kcal)</span></li>
-                  <li><span class="px-3 py-1.5 bg-white hand-drawn-border text-sm">BMI</span></li>
-                </ul>
+                <h3 class="text-base text-gray-600 text-center mb-4">温馨提示</h3>
+                <span class="mb-6 text-lg text-yellow-600">数据需要来自PICOOC的国际版的数据导出到邮件里的内容</span>
               </section>
             </div>
             <input 
