@@ -1,0 +1,29 @@
+{
+  "name": "leelaa-health-care",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.1",
+    "date-fns": "^3.0.6",
+    "animejs": "^3.2.2",
+    "pinia": "^2.1.7",
+    "roughjs": "^4.6.6",
+    "vue": "^3.3.11",
+    "vue-chartjs": "^5.2.0",
+    "vue-router": "^4.2.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "vite": "^5.0.8"
+  }
+}
