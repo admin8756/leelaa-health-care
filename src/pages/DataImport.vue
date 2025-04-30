@@ -100,7 +100,7 @@ function handleFileUpload(event) {
         showError.value = true;
         errorMessage.value = 'Excel文件格式不正确，请确保包含所有必要的列';
         showProgress.value = false;
-        return;
+        return console.error(jsonData);
       }
 
       importProgress.value = 80;
@@ -141,7 +141,7 @@ function handleFileUpload(event) {
 }
 
 function validateExcelData(data) {
-  if (!Array.isArray(data) || data.length === 0) return false;
+  if (!Array.isArray(data) || data.length === 0) return console.log('数据为空');
   const requiredColumns = [
     '测量时间', '体重(kg)', '体脂率(%)', '内脏脂肪指数', '肌肉率(%)',
     '蛋白质(%)', '水分率(%)', '身体年龄', '骨量(kg)', '基础代谢(kcal)', 'BMI'
